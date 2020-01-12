@@ -7,8 +7,6 @@ public class CameraController : MonoBehaviour
 {
     [SerializeField]
     private float camMoveSpeed = 1;
-    [SerializeField]
-    private bool usePhysics = false;
 
 
     private Vector3 moveVector;
@@ -55,7 +53,7 @@ public class CameraController : MonoBehaviour
 
     private void ScrollCam()
     {
-        float forward = 0;
+        float forward;
         forward = Input.mouseScrollDelta.y;
         if (forward != 0)
         {
