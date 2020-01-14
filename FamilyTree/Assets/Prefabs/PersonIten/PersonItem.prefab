@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5982238812486754532}
   - component: {fileID: 1327324431501012642}
+  - component: {fileID: 6196910583396710079}
   m_Layer: 0
   m_Name: MarriedConnectorRight
   m_TagString: Untagged
@@ -79,6 +80,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6196910583396710079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312366026329335488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56259dc02a3991c4593fa8aa251e717f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2399687515490148616
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,6 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5429732414334162490}
   - component: {fileID: 3418364403053587991}
+  - component: {fileID: 9086490164236190316}
   m_Layer: 0
   m_Name: Parrent
   m_TagString: Untagged
@@ -158,6 +172,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &9086490164236190316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2399687515490148616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ed93833be06a034f85cfcf8932bf802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2757845597256271885
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,6 +258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8080280636930532949}
   - component: {fileID: 4487309805017945603}
+  - component: {fileID: 5647618873280418097}
   m_Layer: 0
   m_Name: Children
   m_TagString: Untagged
@@ -301,6 +328,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5647618873280418097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3314995533760218297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6dac92f995dff4b85fca3ec90d7877, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4413128472070281396
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,6 +349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4994030988749333472}
+  - component: {fileID: 5681356324670388372}
   m_Layer: 0
   m_Name: PersonItem
   m_TagString: Untagged
@@ -333,6 +373,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &5681356324670388372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4413128472070281396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c14172f1b935444a4323f6430b8571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParrentsItem: {fileID: 0}
+  ChildrenItem: {fileID: 0}
+  parentsConnector: {fileID: 0}
+  childrensConnector: {fileID: 0}
+  leftMarried: {fileID: 0}
+  RightMarried: {fileID: 0}
 --- !u!1 &4675526982055301972
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,6 +513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6467373439382787369}
   - component: {fileID: 7117364580118284919}
+  - component: {fileID: 5339185098480336390}
   m_Layer: 0
   m_Name: MarriedConnectorLeft
   m_TagString: Untagged
@@ -524,6 +583,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5339185098480336390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6332670811953147872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56259dc02a3991c4593fa8aa251e717f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6651395135950195660
 GameObject:
   m_ObjectHideFlags: 0
